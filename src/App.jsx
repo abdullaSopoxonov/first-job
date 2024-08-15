@@ -94,7 +94,7 @@ function App() {
     })
   }
   return (
-    <div className="App" onClick={closCreatUcer} onKeyDown={closCreatUcer}> 
+    <div className="wrapper" onClick={closCreatUcer} onKeyDown={closCreatUcer}> 
       <Navbar userLength={user.length}/>
     <Page userLength={user.length} user={user} deleteUser={deleteUser} creatBtn ={ creatBtn} setcreatBtn ={setcreatBtn}
     addNewUser={addNewUser}>
