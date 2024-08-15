@@ -3,8 +3,8 @@ import NewUserFrom from "../../componition/newUser/NewUserFrom"
 import "../page/Page.css"
 function Page({userLength, user, deleteUser, creatBtn, setcreatBtn, addNewUser }){
     return(
-        <div className="page">
-            <div className="contioner">
+        <main className="main">
+            <div className="container">
             
         <div className="no-user">
         {userLength === 0 && <h2>No User</h2>}
@@ -14,7 +14,7 @@ function Page({userLength, user, deleteUser, creatBtn, setcreatBtn, addNewUser }
         <button className="user-create" onClick={()=>(setcreatBtn(true))}>Create User</button>
 
         </div>
-    </div>
+    </main>
     )
 }
 export default Page
