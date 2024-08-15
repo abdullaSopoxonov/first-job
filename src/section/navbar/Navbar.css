@@ -1,0 +1,17 @@
+.navbar-contioner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.navbar{
+    /* background-color: #eee; */
+    border-bottom:  1px solid #eee;
+}
+.navbar-counter{
+    color: black;
+}
+.navbar-logo{
+    color: rgb(0, 0, 94);
+
+}

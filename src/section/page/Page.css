@@ -1,0 +1,34 @@
+
+.page{
+    position: relative;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.no-user h2{
+    color:#eee ;
+    font-size: 100px;
+}
+.user-create{
+    /* display: inline-block; */
+    position:fixed;
+    left: 0;
+    top: 50%;
+    width: 120px;
+    height: 35px;
+    font-size: 18px;
+    background-color:rgb(255, 0, 0);
+    color: #fff;
+    border: none;
+    z-index: 0;
+            border-radius: 2px;   
+            transform: translate(-44px, 0px) rotate(-90deg); 
+}
+.user-create:active {
+color: #fff;
+background-color: rgb(104, 6, 6);
+
+}
